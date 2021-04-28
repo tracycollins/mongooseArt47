@@ -1,6 +1,6 @@
 {
   "name": "@threeceelabs/mongoose-art47",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "art:47 mongoDB",
   "main": "index.js",
   "directories": {
@@ -9,10 +9,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tracycollins/mongooseArt47.git"
-  },
+  "repository": "git+https://github.com/tracycollins/mongooseArt47.git",
   "author": "Tracy Collins",
   "license": "ISC",
   "bugs": {
@@ -41,5 +38,6 @@
     "chai": "^4.3.4",
     "faker": "^5.5.2",
     "should": "^13.2.3"
-  }
+  },
+  "private": false
 }
