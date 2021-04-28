@@ -1,6 +1,6 @@
 {
   "name": "@threeceelabs/mongoose-art47",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "art:47 mongoDB",
   "main": "index.js",
   "directories": {
