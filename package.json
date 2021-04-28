@@ -1,0 +1,45 @@
+{
+  "name": "@threeceelabs/mongoose-art47",
+  "version": "1.5.11",
+  "description": "art:47 mongoDB",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracycollins/mongooseArt47.git"
+  },
+  "author": "Tracy Collins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracycollins/mongooseArt47/issues"
+  },
+  "homepage": "https://github.com/tracycollins/mongooseArt47#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.11.0",
+    "async": "^3.2.0",
+    "fs-extra": "^9.1.0",
+    "jsonfile": "^6.1.0",
+    "lodash": "^4.17.21",
+    "mocha": "^8.3.2",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.3",
+    "mongoose-sequence": "^5.3.1",
+    "mongoose-simple-random": "^0.4.1",
+    "object-path": "^0.11.5",
+    "object-treeify": "^2.0.0",
+    "p-retry": "^4.5.0",
+    "treeify": "^1.1.0",
+    "walker": "^1.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "faker": "^5.5.2",
+    "should": "^13.2.3"
+  }
+}
