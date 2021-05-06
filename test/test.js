@@ -15,15 +15,12 @@ async function connectDb() {
     console.log("CONNECT MONGO DB ...");
 
     const appName = "TEST_" + process.pid;
-    // const dbName = "test";
     const dbName = "art47";
     const connectionString = `mongodb+srv://${process.env.MONGODB_ATLAS_USERNAME}:${process.env.MONGODB_ATLAS_PASSWORD}@cluster0.kv4my.mongodb.net/${dbName}?retryWrites=true&w=majority`;
-    // const badConnectionString = `mongodb+srv://${process.env.MONGODB_ATLAS_USERNAME}:badPassWord@cluster0.kv4my.mongodb.net/${dbName}?retryWrites=true&w=majority`;
 
     const db = await global.art47db.connect({
       appName: appName,
       config: {
-        // art47db: badConnectionString
         art47db: connectionString,
       },
       options: {
@@ -32,8 +29,6 @@ async function connectDb() {
     });
 
     console.log(`MONGOOSE DEFAULT CONNECTION OPEN | DB NAME: ${dbName}`);
-
-    // await global.art47db.createDefaultIndexes();
 
     return db;
   } catch (err) {
